@@ -16,13 +16,13 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from khan import menu
+    from "khan" import menu
 
     menu()
 
 elif bit == '32bit':
 
-    from kh import menu
+    from "kh" import menu
 
     menu()
 
