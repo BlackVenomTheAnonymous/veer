@@ -1,0 +1,2 @@
+import khan
+khan.menu()
