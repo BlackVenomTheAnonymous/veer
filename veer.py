@@ -14,7 +14,7 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from khan import menu
+    from kh import menu
 
     menu()
 
@@ -26,9 +26,32 @@ elif bit == '32bit':
 
 else:
 
-    print('\n YOUR DEVICE IS NOT SUPPORT THIS TOOL')
+    print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
 
     os.system('exit')
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
