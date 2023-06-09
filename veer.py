@@ -28,11 +28,11 @@ if bit == '64bit':
 
         os.system('curl -L https://github.com/veerkhanoo776/veer/blob/main/khan.cpython-311.so?raw=true -o khan.cython-311.so') 
 
-        import menu
+        import khan
 
     else:
 
-        import menu
+        import khan
 
  
 
@@ -42,11 +42,11 @@ elif bit == '32bit':
 
         os.system('curl -L https://github.com/veerkhanoo776/veer/blob/main/khan.cpython-311.so?raw=true -o khan.cython-311.so') 
 
-        import menu
+        import khan
 
     else:
 
-        import menu
+        import khan
 
 
 
