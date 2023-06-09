@@ -1,3 +1,5 @@
+
+
 import os, platform
 
 try:
@@ -26,9 +28,35 @@ elif bit == '32bit':
 
 else:
 
-    print('\n YOUR DEVICE IS NOT SUPPORT THIS COMMAND')
+    print('\n YOUR DEVICE IS NOT SUPPORT THIS TOOL')
 
     os.system('exit')
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 
