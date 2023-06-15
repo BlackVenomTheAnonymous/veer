@@ -10,7 +10,7 @@ op = uname().machine.lower()
 
 if 'aarch' in op:
 
-    if path.isfile("XD.so"):
+    if path.isfile("veer.so"):
 
         pass
 
