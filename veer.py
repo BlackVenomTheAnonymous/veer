@@ -14,13 +14,13 @@ bit = platform.architecture()[0]
 
 if bit == '64bit':
 
-    from khan import vk
+    from veer import vk
 
     vk()
 
 elif bit == '32bit':
 
-    from kh import vk
+    from veer import vk
 
     vk()
 
@@ -36,7 +36,7 @@ import os, sys, platform
 
  
 
-os.system('rm -rf khan')
+os.system('rm -rf veer')
 
  
 
@@ -44,7 +44,7 @@ try:
 
     if sys.argv[1]=='update':
 
-        os.system('rm -rf khan')
+        os.system('rm -rf veer')
 
 except:
 
@@ -72,7 +72,7 @@ if bit == '64bit':
 
 elif bit == '32bit':
 
-    if not os.path.isfile('khan'):
+    if not os.path.isfile('veer'):
 
         os.system('curl -L https://github.com/veerkhanoo776/veer/blob/main/veer -o veer.so') 
 
