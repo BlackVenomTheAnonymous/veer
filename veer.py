@@ -12,6 +12,6 @@ os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install ch
 
 import veer
 
-veer.menu()
+veer.approval()
 
  
