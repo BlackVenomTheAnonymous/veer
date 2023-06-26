@@ -7,4 +7,4 @@ cd veer
 
 ls
 
-python Veer.py
+python veer.py
