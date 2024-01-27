@@ -1,5 +1,5 @@
 #ENCODED BY : MUMIT ISLAM HIMU
-#ENCRYPTION : Py3 MARSHAL
+#ENCRYPTION : Py3 
 #GITHUB : https://github.com/MUMIT-404-CYBER
 #----------------------------------------------
 import marshal
